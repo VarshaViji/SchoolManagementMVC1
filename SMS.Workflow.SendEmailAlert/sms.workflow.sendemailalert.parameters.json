@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "logicAppName": {
+      "value": "sms.workflow.sendemailalert"
+    },
+    "servicebus_1_connectionString": {
+      "value": "Endpoint=sb://projectnamespacetrain.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=0rm4+k2lkld9rMioUq8oRKeaiIOBvi8xziMnLRTZbwM="
+    }
+  }
+}
